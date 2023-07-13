@@ -152,11 +152,15 @@ h1 {
 }
 #cube .right {
     rotateY(90deg);
-    transform: translateZ(100px);
+    translateZ(100px);
 }
 #cube .left {
     rotateY(-90deg);
-    transform: translateZ(100px);
+    translateZ(100px);
+}
+#cube .top {
+    rotateY(90deg);
+    translateZ(100px);
 }
 
 
